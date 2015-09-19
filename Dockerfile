@@ -13,7 +13,7 @@ RUN yum -y install \
 	gcc \
 	kernel-${KERNEL_VERSION} \
 	kernel-devel-${KERNEL_VERSION} \
-	kernel-header-${KERNEL_VERSION} \
+	kernel-header \
 	make \
 	patch \
 	wget 
