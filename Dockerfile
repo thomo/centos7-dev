@@ -3,7 +3,7 @@
 FROM centos:7
 MAINTAINER Thomas Mohaupt "Thomas.Mohaupt@gmail.com"
 
-ENV KERNEL_VERSION=3.10.0-229.11.1.el7
+ENV KERNEL_VERSION=3.10.0-229.14.1.el7
 
 RUN echo "deltarpm=0" >> /etc/yum.conf
 
